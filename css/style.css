@@ -171,6 +171,10 @@ body {
     padding: 15px 30px;
 }
 
+.nav .bars {
+    display: none;
+}
+
 /* Navbar */
 
 /* Banner */
