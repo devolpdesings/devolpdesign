@@ -37,7 +37,7 @@ window.addEventListener('load', () => {
                 }
             }
 
-            document.querySelector('.active').classList.remove('active')
+            document.querySelector('.nav-list.active').classList.remove('active')
             link.target.parentNode.classList.add('active')
             
         })
@@ -66,4 +66,21 @@ window.addEventListener('load', () => {
             count = 1
         }
     }
+
+    const bars = document.querySelector('.bars')
+    let activeBars = false
+
+    bars.addEventListener('click', () => {
+        document.querySelector(".bars i").classList.toggle("fa-times")
+
+        if(activeBars){
+            document.querySelector('.content-nav-list').classList.remove('active')
+            activeBars = false
+        }else{
+            document.querySelector('.content-nav-list').classList.add('active')
+            activeBars = true
+        }
+        
+
+    })
 })
