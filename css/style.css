@@ -545,6 +545,7 @@ footer .developer {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        padding-top: 85px;
     }
 
     .section .banner > .img-banner > svg,
