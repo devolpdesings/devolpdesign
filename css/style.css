@@ -545,6 +545,7 @@ footer .developer {
         height: auto;
         flex-direction: column;
         justify-content: space-evenly;
+        height: auto;
         align-items: center;
         padding-top: 85px;
     }
