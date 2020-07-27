@@ -81,6 +81,5 @@ window.addEventListener('load', () => {
             activeBars = true
         }
         
-
     })
 })
