@@ -542,9 +542,9 @@ footer .developer {
     }
 
     .section .banner {
-        height: auto;
         flex-direction: column;
         justify-content: space-evenly;
+        height: auto;
         align-items: center;
         padding-top: 85px;
     }
@@ -568,7 +568,6 @@ footer .developer {
 
     .section .banner > .img-banner > svg,
     .content-design .content-design-img > svg {
-        width: 400px;
-        height: 200;
+        width: 100%;
     }
 }
